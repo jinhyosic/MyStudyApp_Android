@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mystudyapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".PHPmain"
+            android:exported="false" />
+        <activity
+            android:name=".ViewpagerFragment1"
+            android:exported="false" />
+        <activity
+            android:name=".LottoEdit2"
+            android:exported="false" />
+        <activity
+            android:name=".LottoDelete2"
+            android:exported="false" />
+        <activity
+            android:name=".LottoSelect2"
+            android:exported="false" />
+        <activity
+            android:name=".LottoInsert2"
+            android:exported="false" />
+        <activity
+            android:name=".LottoMain2"
+            android:exported="false" />
+        <activity
+            android:name=".LottoSelect"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false" />
+        <activity
+            android:name=".LottoMain"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false" />
+        <activity
+            android:name=".LottoInsert"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentAct"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerFrAdd"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerFrMain"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerViewAct"
+            android:exported="false" />
+        <activity
+            android:name=".MemberList"
+            android:exported="false" />
+        <activity
+            android:name=".MemberDel"
+            android:exported="false" />
+        <activity
+            android:name=".MemberEdit"
+            android:exported="false" />
+        <activity
+            android:name=".MemberJoinCheck"
+            android:exported="false" />
+        <activity
+            android:name=".MemberJoin"
+            android:exported="false" />
+        <activity
+            android:name=".MemberMain"
+            android:exported="false" />
+        <activity
+            android:name=".TimerAct"
+            android:exported="false" />
+        <activity
+            android:name=".CalendarAct"
+            android:exported="false" />
+        <activity
+            android:name=".GpsTrackerAct"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewFriendDel"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewFrAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewFriendAdd"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerFriend"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewAct"
+            android:exported="false" />
+        <activity
+            android:name=".PhoneNumberAct"
+            android:exported="false" />
+        <activity
+            android:name=".FrameLayoutAct"
+            android:exported="false" />
+        <activity
+            android:name=".PreferencesAct"
+            android:exported="false" />
+        <activity
+            android:name=".SaveValueAct"
+            android:exported="false" />
+        <activity
+            android:name=".HandlerAct"
+            android:exported="false" />
+        <activity
+            android:name=".SoccerGame"
+            android:exported="false" />
+        <activity
+            android:name=".GalleryAct"
+            android:exported="false" />
+        <activity
+            android:name=".MediaAct"
+            android:exported="false" />
+        <activity
+            android:name=".VideoViewAct"
+            android:exported="false" />
+        <activity
+            android:name=".WebViewAct"
+            android:exported="false" />
+        <activity
+            android:name=".Join2"
+            android:exported="false" />
+        <activity
+            android:name=".intro"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Join" />
+        <activity android:name=".Anime" />
+        <activity android:name=".Datat" />
+        <activity android:name=".Datat2" />
+        <activity android:name=".SpinnerAct" />
+        <activity android:name=".Stlayout" />
+        <activity android:name=".calcul" />
+        <activity android:name=".GifAct" />
+        <activity android:name=".ListViewFriendEdit" />
+        <activity android:name=".GpsTracker" />
+        <activity android:name=".GoogleMapSearchActivity" />
+        <activity android:name=".Ex28RecyclerViewFriends" />
+        <activity android:name=".Ex28FriendAddActivity" />
+        <activity android:name=".Ex28FriendEditActivity" />
+        <activity android:name=".Ex28FriendDelActivity" />
+        <activity android:name=".Ex32webPhpJoin"/>
+        <activity android:name=".Ex32webPhpMain"/>
+        <activity android:name=".Ex32webPhpLogin"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"></LinearLayout>
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="안드로이드 공부" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/logo_top" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 레이아웃 연습"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 계산기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 회원가입 및 로그인"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="7"
+                            android:gravity="center"
+                            android:text=" 애니메이션 연습"
+                            android:textSize="20dp" />
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" Gif라이브러리"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7"
+                        android:text=" 데이터 전송"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="20dp" />
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="보기"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="20dp" />
+                </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 웹 뷰"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 비디오 뷰"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text="  미디어플레이"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 갤러리"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 축구게임"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button10"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 핸들러"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 프리퍼런스"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button12"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 프레임 레이아웃"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button14"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 전화번호부"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button15"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 리스트뷰"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button16"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=" 연락처"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button17"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text="친구관리프로그램"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button18"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7"
+                        android:text="GPS"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="20dp" />
+                    <Button
+                        android:id="@+id/button19"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="보기"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text="캘린더"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button20"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text="타이머"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button21"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text="DB연동"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button22"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text="리사이클러 뷰"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button23"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text="리사이클러 뷰2"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button24"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7"
+                        android:text="프레그먼트"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="20dp" />
+                    <Button
+                        android:id="@+id/button25"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="보기"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text="로또"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button26"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text="PHP 웹서버통신"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                        <Button
+                            android:id="@+id/button27"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="보기"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"></LinearLayout>
+</LinearLayout>
